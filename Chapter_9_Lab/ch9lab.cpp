@@ -67,7 +67,7 @@ cout<<endl;
 
 int user_input,search;
 const int SIZE=10;
-int loterry_nums[SIZE] {13579,26791,26792,33445,55555,62483,77777,79422,85647,93121};
+int loterry_nums[SIZE] ={13579,26791,26792,33445,55555,62483,77777,79422,85647,93121};
 cout<<"What is your 5 digit lucky number?";cin>>user_input;
 search=searchtickets(loterry_nums,SIZE,user_input);
 //this could be any value that isnt in array not just -1
@@ -90,7 +90,7 @@ cout<<endl;
 int user_input1,search1;
 const int SIZE1=10;
 //dont have to reorganize numbers in array because they are already in order meaning that binary search will work
-int loterry_nums1[SIZE1] {13579,26791,26792,33445,55555,62483,77777,79422,85647,93121};
+int loterry_nums1[SIZE1] ={13579,26791,26792,33445,55555,62483,77777,79422,85647,93121};
 cout<<"What is your 5 digit lucky number?";cin>>user_input1;
 search1=searchtickets_binary(loterry_nums1,SIZE1,user_input1);
 //this could be any value that isnt in array not just -1
@@ -109,7 +109,7 @@ cout<<str;
 cout<<endl;
 
 
-int SIZE3=20;
+const int SIZE3=20;
 int benchmark_array[SIZE3]={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20};
 
 int linear,binary;
