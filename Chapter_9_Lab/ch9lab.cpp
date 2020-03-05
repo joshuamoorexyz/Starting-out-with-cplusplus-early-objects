@@ -4,6 +4,7 @@
 	github:https://github.com/joshuamoore533/C-projects.git
 
 
+
     • Programming Challenge 2 – Lottery Winners 
 
     A lottery ticket buyer purchases 10 tickets a week,always playing the same 10 five-digit
