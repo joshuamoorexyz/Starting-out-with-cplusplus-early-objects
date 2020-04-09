@@ -128,7 +128,7 @@ cout<<"It took "<<binary<<" steps with a binary search to get to the number 12."
 
 hold_screen();
 cout<<"Sorting Benchmarks"<<endl;
-
+ 
 cout<<str;
 cout<<endl;
 const int SIZE4=20;
